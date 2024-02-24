@@ -65,7 +65,7 @@ if load_meta:
         meta = pickle.load(f)
     
     tokenizer = RegexTokenizer()
-    tokenizer.load('data/mud_data/mud.model')
+    tokenizer.load('mud.model')
     encode = lambda s: tokenizer.encode(s, allowed_special='all')
     decode = lambda l: tokenizer.decode(l)
 else:
