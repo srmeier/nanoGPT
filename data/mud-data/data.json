@@ -1,0 +1,697 @@
+{
+  "1a6bec40-b5ac-4f53-bbca-1ae46c734527": {
+    "command": [
+      "tutorial"
+    ],
+    "context": [
+      "Limbo(#2)\nWelcome to your new Evennia-based game! Visit https://www.evennia.com if you need\nhelp, want to contribute, report issues or just join the community.\n\nAs a privileged user, write batchcommand tutorial_world.build to build\ntutorial content. Once built, try intro for starting help and tutorial to\nplay the demo game.\nExits: tutorial(#4)"
+    ]
+  },
+  "1f1864e8-7f0c-4cd2-8bda-bbfe34589d6d": {
+    "command": [
+      "quell"
+    ],
+    "context": [
+      "------------------------------------------------------------------------------\nWARNING: You are playing as a superuser (admin). Use the quell command to\nplay without superuser privileges (many functions and puzzles ignore the \npresence of a superuser, making this mode useful for exploring things behind \nthe scenes later).\n------------------------------------------------------------------------------\nIntro(#3)\nWelcome to the Evennia tutorial-world!\n\n This small quest shows some examples of Evennia usage.\n\n To get into the mood of this miniature quest, imagine you are an adventurer\n out to find fame and fortune. You have heard rumours of an old castle ruin by\n the coast. In its depth a warrior princess was buried together with her\n powerful magical weapon - a valuable prize, if it's true.  Of course this is a\n chance to adventure that you cannot turn down!\n\n You reach the coast in the midst of a raging thunderstorm. With wind and rain\n screaming in your face you stand where the moor meet the sea along a high,\n rocky coast ...\n\nwrite 'begin' to start your quest!\nExits: exit tutorial(#6) and begin adventure(#10)"
+    ]
+  },
+  "9c087fb8-e9d2-43b2-8406-0bf325ea2a66": {
+    "command": [
+      "l"
+    ],
+    "context": [
+      "Quelling to current puppet's permissions (developer,player, developer).\n(Note: If this is higher than Account permissions (superuser), the lowest of the two will be used.)\nUse unquell to return to normal permission usage."
+    ]
+  },
+  "d9f82f62-9477-4f23-9a2a-9c37630e62f6": {
+    "command": [
+      "give up"
+    ],
+    "context": [
+      "Intro(#3)\nWelcome to the Evennia tutorial-world!\n\n This small quest shows some examples of Evennia usage.\n\n To get into the mood of this miniature quest, imagine you are an adventurer\n out to find fame and fortune. You have heard rumours of an old castle ruin by\n the coast. In its depth a warrior princess was buried together with her\n powerful magical weapon - a valuable prize, if it's true.  Of course this is a\n chance to adventure that you cannot turn down!\n\n You reach the coast in the midst of a raging thunderstorm. With wind and rain\n screaming in your face you stand where the moor meet the sea along a high,\n rocky coast ...\n\nwrite 'begin' to start your quest!\nExits: exit tutorial(#6) and begin adventure(#10)"
+    ]
+  },
+  "757cea3a-e4d7-489d-b7fa-7dbbffd48816": {
+    "command": [
+      "exit"
+    ],
+    "context": [
+      "Leaving Tutorial(#5)\nYou are quitting the Evennia tutorial prematurely! Please come back\n later.\nExits: start again(#7) and exit(#8)"
+    ]
+  },
+  "cbb0e871-b7aa-43ed-b827-f3758e77c53f": {
+    "command": [
+      "l"
+    ],
+    "context": [
+      "Account permissions (superuser) restored.\nLimbo(#2)\nWelcome to your new Evennia-based game! Visit https://www.evennia.com if you need\nhelp, want to contribute, report issues or just join the community.\n\nAs a privileged user, write batchcommand tutorial_world.build to build\ntutorial content. Once built, try intro for starting help and tutorial to\nplay the demo game.\nExits: tutorial(#4)"
+    ]
+  },
+  "00cb56aa-3dbd-411c-a331-6ff64b4cc643": {
+    "command": [
+      "connect admin admin"
+    ],
+    "context": [
+      "Limbo(#2)\nWelcome to your new Evennia-based game! Visit https://www.evennia.com if you need\nhelp, want to contribute, report issues or just join the community.\n\nAs a privileged user, write batchcommand tutorial_world.build to build\ntutorial content. Once built, try intro for starting help and tutorial to\nplay the demo game.\nExits: tutorial(#4)",
+      "    \n[ ALERT ] - Socket got disconnected.\n            Reason: User Disconnected\n[ INFO ]  - Connection time: 00:01:50.005\n                ",
+      "[ INFO ]  - Looking up the IP address of server: 192.168.86.27:4000 ...",
+      "[ INFO ]  - The IP address of 192.168.86.27 has been found. It is: 192.168.86.27\n[ INFO ]  - Trying to connect to 192.168.86.27:4000 ...",
+      "[ INFO ]  - A connection has been established successfully.\n                \n                ",
+      "\n==============================================================\n Welcome to test-world, version 3.1.1!\n\n If you have an existing account, connect to it by typing:\n      connect <username> <password>\n If you need to create an account, type (without the <>'s):\n      create <username> <password>\n\n If you have spaces in your username, enclose it in quotes.\n Enter help for more info. look will re-show this screen.\n=============================================================="
+    ]
+  },
+  "aa0935b1-c889-45b2-87dd-8b5284986456": {
+    "command": [
+      "connect admin admin"
+    ],
+    "context": [
+      "[MudInfo] [2024-02-23(21:43)]: admin connected\n\nYou become admin.\n\nLimbo(#2)\nWelcome to your new Evennia-based game! Visit https://www.evennia.com if you need\nhelp, want to contribute, report issues or just join the community.\n\nAs a privileged user, write batchcommand tutorial_world.build to build\ntutorial content. Once built, try intro for starting help and tutorial to\nplay the demo game.\nExits: tutorial(#4)",
+      "    \n[ ALERT ] - Socket got disconnected.\n            Reason: User Disconnected\n[ INFO ]  - Connection time: 00:00:22.897\n                ",
+      "[ INFO ]  - Looking up the IP address of server: 192.168.86.27:4000 ...\n[ INFO ]  - The IP address of 192.168.86.27 has been found. It is: 192.168.86.27\n[ INFO ]  - Trying to connect to 192.168.86.27:4000 ...",
+      "[ INFO ]  - A connection has been established successfully.\n                \n                ",
+      "\n==============================================================\n Welcome to test-world, version 3.1.1!\n\n If you have an existing account, connect to it by typing:\n      connect <username> <password>\n If you need to create an account, type (without the <>'s):\n      create <username> <password>\n\n If you have spaces in your username, enclose it in quotes.\n Enter help for more info. look will re-show this screen.\n=============================================================="
+    ]
+  },
+  "64154aa8-bbf7-4f57-aa69-f2a588d04a8e": {
+    "command": [
+      "tutorial"
+    ],
+    "context": [
+      "[MudInfo] [2024-02-24(01:51)]: admin connected\n\nYou become admin.\n\nLimbo(#2)\nWelcome to your new Evennia-based game! Visit https://www.evennia.com if you need\nhelp, want to contribute, report issues or just join the community.\n\nAs a privileged user, write batchcommand tutorial_world.build to build\ntutorial content. Once built, try intro for starting help and tutorial to\nplay the demo game.\nExits: tutorial(#4)"
+    ]
+  },
+  "b69cfb4c-2071-42ec-a609-818636aab84d": {
+    "command": [
+      "quell"
+    ],
+    "context": [
+      "------------------------------------------------------------------------------\nWARNING: You are playing as a superuser (admin). Use the quell command to\nplay without superuser privileges (many functions and puzzles ignore the \npresence of a superuser, making this mode useful for exploring things behind \nthe scenes later).\n------------------------------------------------------------------------------\nIntro(#3)\nWelcome to the Evennia tutorial-world!\n\n This small quest shows some examples of Evennia usage.\n\n To get into the mood of this miniature quest, imagine you are an adventurer\n out to find fame and fortune. You have heard rumours of an old castle ruin by\n the coast. In its depth a warrior princess was buried together with her\n powerful magical weapon - a valuable prize, if it's true.  Of course this is a\n chance to adventure that you cannot turn down!\n\n You reach the coast in the midst of a raging thunderstorm. With wind and rain\n screaming in your face you stand where the moor meet the sea along a high,\n rocky coast ...\n\nwrite 'begin' to start your quest!\nExits: exit tutorial(#6) and begin adventure(#10)"
+    ]
+  },
+  "12b40778-724d-4b9a-90f8-0d0679ba801f": {
+    "command": [
+      "l"
+    ],
+    "context": [
+      "Quelling to current puppet's permissions (developer,player, developer).\n(Note: If this is higher than Account permissions (superuser), the lowest of the two will be used.)\nUse unquell to return to normal permission usage."
+    ]
+  },
+  "928f5df4-46de-43cb-94a1-31802961a6d1": {
+    "command": [
+      "begin"
+    ],
+    "context": [
+      "Intro(#3)\nWelcome to the Evennia tutorial-world!\n\n This small quest shows some examples of Evennia usage.\n\n To get into the mood of this miniature quest, imagine you are an adventurer\n out to find fame and fortune. You have heard rumours of an old castle ruin by\n the coast. In its depth a warrior princess was buried together with her\n powerful magical weapon - a valuable prize, if it's true.  Of course this is a\n chance to adventure that you cannot turn down!\n\n You reach the coast in the midst of a raging thunderstorm. With wind and rain\n screaming in your face you stand where the moor meet the sea along a high,\n rocky coast ...\n\nwrite 'begin' to start your quest!\nExits: exit tutorial(#6) and begin adventure(#10)"
+    ]
+  },
+  "5c7baac0-339a-4953-8a2b-20a1f79e09b7": {
+    "command": [
+      "l sign"
+    ],
+    "context": [
+      "Cliff by the coast(#9)\nYou stand on the high coast line overlooking a stormy sea far\n below. Around you the ground is covered in low gray-green grass,\n pushed flat by wind and rain. Inland, the vast dark moors begin, only\n here and there covered in patches of low trees and brushes.\n\n To the east, you glimpse the ragged outline of a castle ruin. It sits\n perched on a sheer cliff out into the water, isolated from the\n shore. The only way to reach it seems by way of an old hanging bridge,\n anchored not far east from here.\nExits: old bridge(#22)\nYou see: an Old well(#11), a Wooden sign(#12), and a gnarled old tree(#13)"
+    ]
+  },
+  "57b325ff-4118-4281-b565-b9dcdb6e9587": {
+    "command": [
+      "read sign"
+    ],
+    "context": [
+      "Wooden sign(#12)\nThe wooden sign sits at the end of a small eastward path. Beyond it\n is the shore-side anchor of the hanging bridge that connects the main\n land with the castle ruin on its desolate cliff. The sign is not as\n old as the rest of the scenery and the text on it is easily readable."
+    ]
+  },
+  "d3b46173-c704-4a62-b2cf-291548ddb5ca": {
+    "command": [
+      "l"
+    ],
+    "context": [
+      "You read Wooden sign:\n  WARNING - The bridge is not safe!\n\n Below this official warning, someone has carved some sprawling\n letters into the wood. It reads: \"The guardian will not bleed to\n mortal blade.\""
+    ]
+  },
+  "c08e331b-b74b-4633-97df-7080c9d53866": {
+    "command": [
+      "l well"
+    ],
+    "context": [
+      "Cliff by the coast(#9)\nYou stand on the high coast line overlooking a stormy sea far\n below. Around you the ground is covered in low gray-green grass,\n pushed flat by wind and rain. Inland, the vast dark moors begin, only\n here and there covered in patches of low trees and brushes.\n\n To the east, you glimpse the ragged outline of a castle ruin. It sits\n perched on a sheer cliff out into the water, isolated from the\n shore. The only way to reach it seems by way of an old hanging bridge,\n anchored not far east from here.\nExits: old bridge(#22)\nYou see: an Old well(#11), a Wooden sign(#12), and a gnarled old tree(#13)"
+    ]
+  },
+  "7ebd892f-d205-4118-88d8-abb03a512e36": {
+    "command": [
+      "l"
+    ],
+    "context": [
+      "Old well(#11)\nThe ruins of an old well sit some way off the path. The stone circle\n has collapsed and whereas there is still a chain hanging down the\n hole, it does not look very secure. It is probably a remnant of some\n old settlement back in the day."
+    ]
+  },
+  "bcb19ee6-8de9-4b87-8f94-8ba189a79972": {
+    "command": [
+      "l tree"
+    ],
+    "context": [
+      "Cliff by the coast(#9)\nYou stand on the high coast line overlooking a stormy sea far\n below. Around you the ground is covered in low gray-green grass,\n pushed flat by wind and rain. Inland, the vast dark moors begin, only\n here and there covered in patches of low trees and brushes.\n\n To the east, you glimpse the ragged outline of a castle ruin. It sits\n perched on a sheer cliff out into the water, isolated from the\n shore. The only way to reach it seems by way of an old hanging bridge,\n anchored not far east from here.\nExits: old bridge(#22)\nYou see: an Old well(#11), a Wooden sign(#12), and a gnarled old tree(#13)",
+      "Lightning strikes in several thundering bolts, striking the trees in the forest to your west."
+    ]
+  },
+  "16899ec8-7ab6-477b-a494-b8f369cead83": {
+    "command": [
+      "l"
+    ],
+    "context": [
+      "gnarled old tree(#13)\nOnly the sturdiest of trees survive at the edge of the\n moor. A small huddling black thing has dug in near the\n cliff edge, eternally pummeled by wind and salt to become an integral\n part of the gloomy scenery."
+    ]
+  },
+  "a0e4d4f8-16b6-41c1-954c-5509731fd75c": {
+    "command": [
+      "old bridge"
+    ],
+    "context": [
+      "Cliff by the coast(#9)\nYou stand on the high coast line overlooking a stormy sea far\n below. Around you the ground is covered in low gray-green grass,\n pushed flat by wind and rain. Inland, the vast dark moors begin, only\n here and there covered in patches of low trees and brushes.\n\n To the east, you glimpse the ragged outline of a castle ruin. It sits\n perched on a sheer cliff out into the water, isolated from the\n shore. The only way to reach it seems by way of an old hanging bridge,\n anchored not far east from here.\nExits: old bridge(#22)\nYou see: an Old well(#11), a Wooden sign(#12), and a gnarled old tree(#13)"
+    ]
+  },
+  "deeec290-c8d4-4d96-b8f6-9be53bbe1be5": {
+    "command": [
+      "n"
+    ],
+    "context": [
+      "The old bridge\nYou are standing very close to the the bridge's western foundation. If you go west you will be back\non solid ground ...\nA gust of wind causes the bridge to sway precariously.",
+      "Some sort of large bird sweeps by overhead, giving off an eery screech. Soon it has disappeared in\nthe gloom."
+    ]
+  },
+  "9decaee7-166b-4112-9b36-faae5dc61777": {
+    "command": [
+      "l"
+    ],
+    "context": [
+      "Command 'n' is not available. Maybe you meant \"unban\" or \"unlink\"?"
+    ]
+  },
+  "4211f63f-d323-4597-a656-962afb6ddc50": {
+    "command": [
+      "e"
+    ],
+    "context": [
+      "The old bridge\nYou are standing very close to the the bridge's western foundation. If you go west you will be back\non solid ground ...\nFrom the castle you hear a distant howling sound, like that of a large dog or other beast."
+    ]
+  },
+  "ac6565b2-4ad5-4290-b685-44d1a0762ca0": {
+    "command": [
+      "e"
+    ],
+    "context": [
+      "The old bridge\nThe bridge slopes precariously where it extends eastwards towards the lowest point - the center\npoint of the hang bridge.\nYou clasp the ropes firmly as the bridge sways and creaks under you."
+    ]
+  },
+  "4658bd37-5013-49d6-b425-e957af6079bd": {
+    "command": [
+      "e"
+    ],
+    "context": [
+      "The old bridge\nYou are halfways out on the unstable bridge.\nThe bridge creaks under your feet. Those planks does not seem very sturdy."
+    ]
+  },
+  "ad9af0e3-f84b-49dd-aba5-8a5d7e4f16df": {
+    "command": [
+      "e"
+    ],
+    "context": [
+      "The old bridge\nThe bridge slopes precariously where it extends westwards towards the lowest point - the center\npoint of the hang bridge.\nFrom the castle you hear a distant howling sound, like that of a large dog or other beast."
+    ]
+  },
+  "8dea3f92-3e32-4d99-ba6d-a10aa7905d5a": {
+    "command": [
+      "e"
+    ],
+    "context": [
+      "The old bridge\nYou are standing very close to the bridge's eastern foundation. If you go east you will be back on\nsolid ground ...\nFar below you the ocean roars and throws its waves against the cliff, as if trying its best to reach\nyou."
+    ]
+  },
+  "b4721ef9-0b79-4e6b-874f-3f72fd30c0fa": {
+    "command": [
+      "archway"
+    ],
+    "context": [
+      "Ruined gatehouse(#29)\nThe old gatehouse is near collapse. Part of its northern wall has\n already fallen down, together with parts of the fortifications in\n that direction.  Heavy stone pillars hold up sections of ceiling, but\n elsewhere the flagstones are exposed to open sky. Part of a heavy\n portcullis, formerly blocking off the inner castle from attack, is\n sprawled over the ground together with most of its frame.\n\n East the gatehouse leads out to a small open area surrounded by\n the remains of the castle.  There is also a standing archway\n offering passage to a path along the old southern inner wall.\nExits: Bridge over the abyss(#30), Standing archway(#32), and castle corner(#35)"
+    ]
+  },
+  "ea466d31-ba3d-4013-9cba-952423a6e956": {
+    "command": [
+      "gatehouse"
+    ],
+    "context": [
+      "Along inner wall(#31)\nWhat appears at first sight to be a series of connected rooms\n actually turns out to be collapsed buildings so mashed together by\n the ravages of time that they all seem to lean on each other and\n against the outer wall. The whole scene is directly open to the sky.\n\n The buildings make a half-circle along the main wall, here and there\n broken by falling stone and rubble. At one end (the northern) of\n this half-circle is the entrance to the castle, the ruined\n gatehouse. Eastwards from here is some sort of open courtyard.\nExits: ruined gatehouse(#33) and overgrown courtyard(#44)"
+    ]
+  },
+  "126c360e-147c-4434-93ec-995e31cb0b1e": {
+    "command": [
+      "norner"
+    ],
+    "context": [
+      "Ruined gatehouse(#29)\nThe old gatehouse is near collapse. Part of its northern wall has\n already fallen down, together with parts of the fortifications in\n that direction.  Heavy stone pillars hold up sections of ceiling, but\n elsewhere the flagstones are exposed to open sky. Part of a heavy\n portcullis, formerly blocking off the inner castle from attack, is\n sprawled over the ground together with most of its frame.\n\n East the gatehouse leads out to a small open area surrounded by\n the remains of the castle.  There is also a standing archway\n offering passage to a path along the old southern inner wall.\nExits: Bridge over the abyss(#30), Standing archway(#32), and castle corner(#35)"
+    ]
+  },
+  "6bde25f5-519c-4d7d-a655-4eab2c49d592": {
+    "command": [
+      "corner"
+    ],
+    "context": [
+      "Command 'norner' is not available. Maybe you meant \"corner\" or \"inventory\"?"
+    ]
+  },
+  "f33a1d21-cf00-4d2c-869a-0fc601fdad3b": {
+    "command": [
+      "fatehouse"
+    ],
+    "context": [
+      "Corner of castle ruins(#34)\nThe ruins opens up to the sky in a small open area, lined by\n columns. The open area is dominated by a huge stone obelisk in its\n center, an ancient ornament miraculously still standing.\n\n Previously one could probably continue past the obelisk and eastward\n into the castle keep itself, but that way is now completely blocked\n by fallen rubble. To the west is the gatehouse and entrance to\n the castle, whereas southwards the columns make way for a wide\n open courtyard.\nExits: gatehouse(#36) and courtyard(#41)\nYou see: a Ghostly apparition(#38) and an obelisk(#37)\nGhostly apparition slash at you with foggy tentacles. It's a hit!",
+      "Ghostly apparition slash at you with foggy tentacles. It's a hit!",
+      "Ghostly apparition stabs at you with foggy tentacles. They miss you."
+    ]
+  },
+  "c959aa40-f3a8-4617-8987-e1514dedfdcd": {
+    "command": [
+      "gatehouse"
+    ],
+    "context": [
+      "Command 'fatehouse' is not available. Maybe you meant \"gatehouse\", \"@sethome\" or \"sethelp\"?",
+      "Ghostly apparition stabs at you with foggy tentacles. It's a hit!\nYou fall to the ground, defeated. As you do, the ghostly apparition dives\n forward and engulf you.\n\n\n The world turns black.\nThe room is completely dark."
+    ]
+  },
+  "3ef27b46-b043-4d4b-9cb9-ac0a57785d26": {
+    "command": [
+      "inv"
+    ],
+    "context": [
+      "Until you find some light, there's not much you can do. Try feeling around, maybe you'll find\nsomething helpful!"
+    ]
+  },
+  "ffb5c398-4398-4b9f-b821-8395a1de52ba": {
+    "command": [
+      "i"
+    ],
+    "context": [
+      "Until you find some light, there's not much you can do. Try feeling around, maybe you'll find\nsomething helpful!"
+    ]
+  },
+  "79e94095-0296-49b5-9619-615a9d8f071f": {
+    "command": [
+      "light"
+    ],
+    "context": [
+      "Until you find some light, there's not much you can do. Try feeling around, maybe you'll find\nsomething helpful!"
+    ]
+  },
+  "7df81d3a-af72-424f-ad1e-f7476d36cdab": {
+    "command": [
+      "l"
+    ],
+    "context": [
+      "Until you find some light, there's not much you can do. Try feeling around, maybe you'll find\nsomething helpful!"
+    ]
+  },
+  "be20223a-a857-451d-92af-ea3202158f30": {
+    "command": [
+      "l"
+    ],
+    "context": [
+      "Blind, you think you find some sort of object on the ground, but it turns out to be just a stone."
+    ]
+  },
+  "ee827de9-87c5-4286-bf04-7ed4bd6b6881": {
+    "command": [
+      "l"
+    ],
+    "context": [
+      "You can't see anything, but the air is damp. It feels like you are far underground."
+    ]
+  },
+  "442c9a52-2782-4e60-89f2-545256a90518": {
+    "command": [
+      "l"
+    ],
+    "context": [
+      "Blind, you bump into a wall. The wall seems to be covered with some sort of vegetation, but its too\ndamp to burn."
+    ]
+  },
+  "47a50f15-f52f-410f-b314-7348eda8cedc": {
+    "command": [
+      "l"
+    ],
+    "context": [
+      "Blind, you think you find some sort of object on the ground, but it turns out to be just a stone."
+    ]
+  },
+  "464bfc6a-712d-48ee-9af8-d03fcd086f33": {
+    "command": [
+      "light"
+    ],
+    "context": [
+      "Your fingers bump against a splinter of wood in a corner. It smells of resin and seems dry enough to\nburn! You pick it up, holding it firmly. Now you just need to light it using the flint and steel you \ncarry with you."
+    ]
+  },
+  "0e1f47ab-fbe2-4d47-bb62-e3854c3a5879": {
+    "command": [
+      "l"
+    ],
+    "context": [
+      "The room is lit up.\nYou light splinter."
+    ]
+  },
+  "68fbcc76-3b3a-4645-9bfc-e0f062c09e18": {
+    "command": [
+      "wall"
+    ],
+    "context": [
+      "Dark cell(#27)\nThe flickering light of your makeshift light reveals a small square\n cell. It does not seem like you are still in the castle, for the\n stone of the walls are chiseled crudely and drip with water and mold.\n\n One wall holds a solid iron-cast door. While rusted and covered with\n lichen it seems very sturdy. In a corner lies what might have once\n been a bed or a bench but is now nothing more than a pile of splinters,\n one of which you are using for light. One of the walls is covered with a\n thick cover of black roots having broken through the cracks from the\n outside.\nExits: root-covered wall(#28)"
+    ]
+  },
+  "8fb9046b-9841-425c-936a-8176172375fe": {
+    "command": [
+      "l wall"
+    ],
+    "context": [
+      "No matter how you try, you cannot force yourself through root-covered wall."
+    ]
+  },
+  "87b13265-42d3-4ecf-948b-875d60ef9f69": {
+    "command": [
+      "yellow up"
+    ],
+    "context": [
+      "root-covered wall(#28)\nThe wall is old and covered with roots that here and there have permeated the stone. The roots (or\nwhatever they are - some of them are covered in small nondescript flowers) crisscross the wall, \nmaking it hard to clearly see its stony surface. Maybe you could try to shift or move them (like \n'shift red up').\n\nThe thin horizontal-hanging root with yellow flowers passes right over the middle of the wall.\nThe weedy green horizontal root passes right over the middle of the wall.\nThe reddish vertical-hanging root hangs straight down the middle of the wall.\nThe thick vertical root with blue flowers hangs straight down the middle of the wall.",
+      "shift yellow up\n(mapper): (error): Not mapping"
+    ]
+  },
+  "86d59cff-dcad-4ac6-a6c7-bd8497e6470a": {
+    "command": [
+      "pull yellow"
+    ],
+    "context": [
+      "Command 'yellow up' is not available. Maybe you meant \"pull\"?"
+    ]
+  },
+  "3c44b47e-ee4c-4a77-88ed-ffe246ccc76a": {
+    "command": [
+      "pull yellow up"
+    ],
+    "context": [
+      "You must define which colour of root you want to move, and in which direction."
+    ]
+  },
+  "cf16daf6-fc63-4d03-8d0f-dd8cf6361513": {
+    "command": [
+      "l wall"
+    ],
+    "context": [
+      "You shift the root with small yellow flowers upwards."
+    ]
+  },
+  "7699afb0-a2ea-4537-a42b-9b1e33bcfbb3": {
+    "command": [
+      "pull green down"
+    ],
+    "context": [
+      "root-covered wall(#28)\nThe wall is old and covered with roots that here and there have permeated the stone. The roots (or\nwhatever they are - some of them are covered in small nondescript flowers) crisscross the wall, \nmaking it hard to clearly see its stony surface. Maybe you could try to shift or move them (like \n'shift red up').\n\nThe thin horizontal-hanging root with yellow flowers covers the upper part of the wall.\nThe weedy green horizontal root passes right over the middle of the wall.\nThe reddish vertical-hanging root hangs straight down the middle of the wall.\nThe thick vertical root with blue flowers hangs straight down the middle of the wall."
+    ]
+  },
+  "81a6035a-68c1-4c02-9d55-dc4dbed62885": {
+    "command": [
+      "pull red left"
+    ],
+    "context": [
+      "You shove the weedy green root downwards."
+    ]
+  },
+  "b2e4a24e-09fd-4930-aa21-49530c14c545": {
+    "command": [
+      "pull blue right"
+    ],
+    "context": [
+      "You shift the reddish root to the left."
+    ]
+  },
+  "e999fb18-7789-42b8-990e-c8672b0b24fb": {
+    "command": [
+      "l wall"
+    ],
+    "context": [
+      "You shove the root adorned with small blue flowers to the right.\nHolding aside the root you think you notice something behind it ..."
+    ]
+  },
+  "06a83bb8-5816-4d08-8ba8-8b8bfbf6a274": {
+    "command": [
+      "wall"
+    ],
+    "context": [
+      "root-covered wall(#28)\nHaving moved all the roots aside, you find that the center of the wall, previously hidden by the\nvegetation, hid a curious square depression. It was maybe once concealed and made to look a part of \nthe wall, but with the crumbling of stone around it, it's now easily identifiable as some sort of \nbutton."
+    ]
+  },
+  "7308d57a-395d-460d-8edd-0f4b1dc0c908": {
+    "command": [
+      "l button"
+    ],
+    "context": [
+      "No matter how you try, you cannot force yourself through root-covered wall."
+    ]
+  },
+  "2c5019e3-93e1-469c-9ac1-f9f5d472db01": {
+    "command": [
+      "push button"
+    ],
+    "context": [
+      "Could not find 'button'."
+    ]
+  },
+  "a3e0c4a6-2b48-4047-bf9e-5d03438d3832": {
+    "command": [
+      "l"
+    ],
+    "context": [
+      "You move your fingers over the suspicious depression, then gives it a decisive push. First nothing\nhappens, then there is a rumble and a hidden passage opens, dust and pebbles rumbling as part of the \nwall moves aside."
+    ]
+  },
+  "4252b105-3496-45d4-b5ba-ce8cc49510b3": {
+    "command": [
+      "wall"
+    ],
+    "context": [
+      "Dark cell(#27)\nThe flickering light of your makeshift light reveals a small square\n cell. It does not seem like you are still in the castle, for the\n stone of the walls are chiseled crudely and drip with water and mold.\n\n One wall holds a solid iron-cast door. While rusted and covered with\n lichen it seems very sturdy. In a corner lies what might have once\n been a bed or a bench but is now nothing more than a pile of splinters,\n one of which you are using for light. One of the walls is covered with a\n thick cover of black roots having broken through the cracks from the\n outside.\nExits: root-covered wall(#28)"
+    ]
+  },
+  "0f8aa342-7e26-4d3c-bdd5-991c16b5a88e": {
+    "command": [
+      "climb"
+    ],
+    "context": [
+      "The room is completely dark.\nUnderground passages(#24)\nThe underground cavern system you have entered seems to stretch on\n forever, with criss-crossing paths and natural caverns probably\n carved by water. It is not completely dark, here and there faint\n daylight sifts down from above - the cliff is porous leaving channels\n of air and light up to the surface.\n\n\n (some time later)\n\n\n You eventually come upon a cavern with a black pool of stale\n water. In it sits a murky bucket, the first remnant of any sort of\n intelligent life down here. The bucket has disconnected from a chain\n hanging down from a circular opening high above. Gray daylight\n simmers down the hole together with rain that ripples the black\n surface of the pool.\nExits: climb the chain(#26)",
+      "Your splinter flickers and dies."
+    ]
+  },
+  "72a8e96b-f56f-4d12-8ccc-6523101bb19e": {
+    "command": [
+      "l me"
+    ],
+    "context": [
+      "Cliff by the coast(#9)\nYou stand on the high coast line overlooking a stormy sea far\n below. Around you the ground is covered in low gray-green grass,\n pushed flat by wind and rain. Inland, the vast dark moors begin, only\n here and there covered in patches of low trees and brushes.\n\n To the east, you glimpse the ragged outline of a castle ruin. It sits\n perched on a sheer cliff out into the water, isolated from the\n shore. The only way to reach it seems by way of an old hanging bridge,\n anchored not far east from here.\nExits: old bridge(#22)\nYou see: an Old well(#11), a Wooden sign(#12), and a gnarled old tree(#13)"
+    ]
+  },
+  "643cf420-a9a8-45ee-82d7-f1916162a6a4": {
+    "command": [
+      "l bridge"
+    ],
+    "context": [
+      "admin(#1)\nThis is User #1.",
+      "You hear the distant howl of what sounds like some sort of dog or wolf."
+    ]
+  },
+  "ce6e436c-299c-4a8d-a86c-3289b94c1601": {
+    "command": [
+      "l"
+    ],
+    "context": [
+      "old bridge(#22)\nThe hanging bridge's foundation sits at the edge of the cliff to the\n east - two heavy stone pillars anchor the bridge on this side. The\n bridge sways precariously in the storm."
+    ]
+  },
+  "54d32844-4182-4fde-a43a-23b110223dd4": {
+    "command": [
+      "bridge"
+    ],
+    "context": [
+      "Cliff by the coast(#9)\nYou stand on the high coast line overlooking a stormy sea far\n below. Around you the ground is covered in low gray-green grass,\n pushed flat by wind and rain. Inland, the vast dark moors begin, only\n here and there covered in patches of low trees and brushes.\n\n To the east, you glimpse the ragged outline of a castle ruin. It sits\n perched on a sheer cliff out into the water, isolated from the\n shore. The only way to reach it seems by way of an old hanging bridge,\n anchored not far east from here.\nExits: old bridge(#22)\nYou see: an Old well(#11), a Wooden sign(#12), and a gnarled old tree(#13)"
+    ]
+  },
+  "0e3b21ea-09ee-4e55-a2f2-bf2aaf1c3772": {
+    "command": [
+      "hole"
+    ],
+    "context": [
+      "The old bridge\nYou are standing very close to the the bridge's western foundation. If you go west you will be back\non solid ground ...\nThe bridge creaks under your feet. Those planks does not seem very sturdy.\nSuddenly the plank you stand on gives way under your feet! You fall!\nYou try to grab hold of an adjoining plank, but all you manage to do is to divert your fall\nwestwards, towards the cliff face. This is going to hurt ... \n ... The world goes dark ...\n\n\nProtruding ledge(#23)\nYou are on a narrow ledge protruding from the side of the cliff,\n about halfway down.  The air is saturated with salty sea water,\n sprays hitting your face from the crashing waves below.\n\n The ledge is covered with a few black-grey brushes. Not far from you\n the cliff-face is broken down to reveal a narrow natural opening into\n the cliff. High above you the bridge sways and creaks in the wind.\nExits: hole into cliff(#25)\nProtruding ledge(#23)\nYou are on a narrow ledge protruding from the side of the cliff,\n about halfway down.  The air is saturated with salty sea water,\n sprays hitting your face from the crashing waves below.\n\n The ledge is covered with a few black-grey brushes. Not far from you\n the cliff-face is broken down to reveal a narrow natural opening into\n the cliff. High above you the bridge sways and creaks in the wind.\nExits: hole into cliff(#25)"
+    ]
+  },
+  "ec0d866a-8967-4fcc-9c1a-9e4027b0c919": {
+    "command": [
+      "climb"
+    ],
+    "context": [
+      "Underground passages(#24)\nThe underground cavern system you have entered seems to stretch on\n forever, with criss-crossing paths and natural caverns probably\n carved by water. It is not completely dark, here and there faint\n daylight sifts down from above - the cliff is porous leaving channels\n of air and light up to the surface.\n\n\n (some time later)\n\n\n You eventually come upon a cavern with a black pool of stale\n water. In it sits a murky bucket, the first remnant of any sort of\n intelligent life down here. The bucket has disconnected from a chain\n hanging down from a circular opening high above. Gray daylight\n simmers down the hole together with rain that ripples the black\n surface of the pool.\nExits: climb the chain(#26)"
+    ]
+  },
+  "47f6235d-929d-407c-9654-e48924ff8e70": {
+    "command": [
+      "bridge"
+    ],
+    "context": [
+      "Cliff by the coast(#9)\nYou stand on the high coast line overlooking a stormy sea far\n below. Around you the ground is covered in low gray-green grass,\n pushed flat by wind and rain. Inland, the vast dark moors begin, only\n here and there covered in patches of low trees and brushes.\n\n To the east, you glimpse the ragged outline of a castle ruin. It sits\n perched on a sheer cliff out into the water, isolated from the\n shore. The only way to reach it seems by way of an old hanging bridge,\n anchored not far east from here.\nExits: old bridge(#22)\nYou see: an Old well(#11), a Wooden sign(#12), and a gnarled old tree(#13)"
+    ]
+  },
+  "8f4451f7-a79f-4885-a860-c1f9aa1d0a82": {
+    "command": [
+      "e"
+    ],
+    "context": [
+      "The old bridge\nYou are standing very close to the the bridge's western foundation. If you go west you will be back\non solid ground ...\nThe hanging bridge creaks dangerously."
+    ]
+  },
+  "a1b9e309-5f2d-44e9-87fb-1d7031601f69": {
+    "command": [
+      "e"
+    ],
+    "context": [
+      "The old bridge\nThe bridge slopes precariously where it extends eastwards towards the lowest point - the center\npoint of the hang bridge.\nThe bridge sways in the wind."
+    ]
+  },
+  "c9364736-af93-46b3-9f05-72a3429abbc4": {
+    "command": [
+      "e"
+    ],
+    "context": [
+      "The old bridge\nYou are halfways out on the unstable bridge.\nA gust of wind causes the bridge to sway precariously."
+    ]
+  },
+  "2312d049-95f5-4724-a9d4-f0d3e4f3e158": {
+    "command": [
+      "e"
+    ],
+    "context": [
+      "The old bridge\nThe bridge slopes precariously where it extends westwards towards the lowest point - the center\npoint of the hang bridge.\nFrom the castle you hear a distant howling sound, like that of a large dog or other beast."
+    ]
+  },
+  "549deed1-e8d2-42a2-aadd-4908f5e8f4b9": {
+    "command": [
+      "e"
+    ],
+    "context": [
+      "The old bridge\nYou are standing very close to the bridge's eastern foundation. If you go east you will be back on\nsolid ground ...\nUnder your feet a plank comes loose, tumbling down. For a moment you dangle over the abyss ..."
+    ]
+  },
+  "2c88507c-f7dc-4205-b5ba-5532c51e3838": {
+    "command": [
+      "corner"
+    ],
+    "context": [
+      "Ruined gatehouse(#29)\nThe old gatehouse is near collapse. Part of its northern wall has\n already fallen down, together with parts of the fortifications in\n that direction.  Heavy stone pillars hold up sections of ceiling, but\n elsewhere the flagstones are exposed to open sky. Part of a heavy\n portcullis, formerly blocking off the inner castle from attack, is\n sprawled over the ground together with most of its frame.\n\n East the gatehouse leads out to a small open area surrounded by\n the remains of the castle.  There is also a standing archway\n offering passage to a path along the old southern inner wall.\nExits: Bridge over the abyss(#30), Standing archway(#32), and castle corner(#35)"
+    ]
+  },
+  "55497f7d-ed70-44b2-bd9e-def062444830": {
+    "command": [
+      "get obelisk"
+    ],
+    "context": [
+      "Corner of castle ruins(#34)\nThe ruins opens up to the sky in a small open area, lined by\n columns. The open area is dominated by a huge stone obelisk in its\n center, an ancient ornament miraculously still standing.\n\n Previously one could probably continue past the obelisk and eastward\n into the castle keep itself, but that way is now completely blocked\n by fallen rubble. To the west is the gatehouse and entrance to\n the castle, whereas southwards the columns make way for a wide\n open courtyard.\nExits: gatehouse(#36) and courtyard(#41)\nYou see: an obelisk(#37)"
+    ]
+  },
+  "e1af92a2-ee09-4a09-8c24-127da728e637": {
+    "command": [
+      "l obelisk"
+    ],
+    "context": [
+      "It's way too heavy for anyone to move."
+    ]
+  },
+  "ed3b748f-1493-41ed-a0d3-0deaa0d313d7": {
+    "command": [
+      "l woman"
+    ],
+    "context": [
+      "obelisk(#37)\nThe surface of the obelisk seem to waver, shift and writhe under your gaze, with different scenes\nand structures appearing whenever you look at it. You can briefly make out the image of a woman with \na blue bird."
+    ]
+  },
+  "df8b9b04-26f3-4263-856a-74a6c76a9167": {
+    "command": [
+      "courtyard"
+    ],
+    "context": [
+      "Could not find 'woman'."
+    ]
+  },
+  "3c8782a9-2de9-4b31-96bd-64e32ced8870": {
+    "command": [
+      "temple"
+    ],
+    "context": [
+      "Overgrown courtyard(#40)\nThe inner courtyard of the old castle is littered with debris and\n overgrown with low grass and patches of thorny vines. There is a\n collapsed structure close to the gatehouse that looks like a stable.\n\n Northwards is a smaller area cornered in the debris, adorned with\n a large obelisk-like thing. To the west the castle walls loom\n over a mess of collapsed buildings. On the opposite, eastern side\n of the yard is a large building with a curved roof that seem to have\n withstood the test of time better than many of those around it, it\n looks like some sort of temple.\nExits: castle corner(#42), along inner wall(#43), and ruined temple(#46)"
+    ]
+  },
+  "600101f6-3056-4df5-a5ea-8532e0393926": {
+    "command": [
+      "stairs"
+    ],
+    "context": [
+      "The ruined temple(#45)\nThis building seems to have survived the ravages of time better than\n most of the others. Its arched roof and wide spaces suggests that\n this is a temple or church of some kind.\n\n\n The wide hall of the temple stretches before you. At the far edge is\n a stone altar with no clear markings. Despite its relatively good\n condition, the temple is empty of all furniture or valuables, like it\n was looted or its treasures moved ages ago.\n\n Stairs lead down to the temple's dungeon on either side of the\n altar. A gaping door opening shows the a wide courtyard to the west.\nExits: overgrown courtyard(#47) and stairs down(#49)"
+    ]
+  },
+  "7afbe59f-f9a0-478b-9677-4e05cf610d77": {
+    "command": [
+      "bird tomb"
+    ],
+    "context": [
+      "Antechamber(#48)\nThis chamber lies almost directly under the main altar of the\n temple. The passage of aeons is felt here and you also sense you are\n close to great power.\n\n The sides of the chamber are lined with stone archways, these are\n entrances to the tombs of what must have been influential\n families or individual heroes of the realm. Each is adorned by a\n stone statue or symbol of fine make. They do not seem to be ordered\n in any particular order or rank.\nExits: up the stairs to ruined temple(#50), Blue bird tomb(#52), Tomb of woman on horse(#54), Tomb\nof the crowned queen(#56), Tomb of the shield(#58), and Tomb of the hero(#60)"
+    ]
+  },
+  "5c388518-36e2-4715-ac5a-17e8ebab0c4d": {
+    "command": [
+      "bird"
+    ],
+    "context": [
+      "Command 'bird tomb' is not available. Maybe you meant \"blue bird tomb\" or \"bird\"?"
+    ]
+  },
+  "0890462e-ec67-411a-b0b6-8614535d2711": {
+    "command": [
+      "l stone"
+    ],
+    "context": [
+      "The tomb is dark. You fumble your way through it. You think you can\n make out a coffin in front of you in the gloom.\n\n The coffin comes into view. On and around it are chiseled scenes of a\n stern woman in armor. They depict great heroic deeds. This is clearly\n the tomb of some sort of ancient heroine - it must be the goal you\n have been looking for!\nAncient tomb(#61)\nApart from the ornate sarcophagus, the tomb is bare from extra decorations.\n This is the resting place of a warrior with little patience for\n glamour and trinkets. You have reached the end of your quest.\nExits: back to antechamber(#62)\nYou see: a Stone sarcophagus(#63)"
+    ]
+  },
+  "2ecd3097-487e-405e-aa0f-158d7f7d0dd0": {
+    "command": [
+      "get weapon"
+    ],
+    "context": [
+      "Stone sarcophagus(#63)\nThe lid of the coffin is adorned with a stone statue in full size.\nThe weapon held by the stone hands looks very realistic ...\n\n The hands of the statue close on what seems to be a real weapon\nrather than one in stone.  This must be the hero's legendary weapon!\nThe prize you have been looking for!\n\n (try get weapon)"
+    ]
+  },
+  "c7e4df19-2b7c-4dbb-9ddd-8697bb4fba66": {
+    "command": [
+      "exit"
+    ],
+    "context": [
+      "Trembling you carefully release the weapon from the stone to test\n its weight. You are finally holding your prize,\n\n  The Silver Warhammer\n\n in your hands!\n\n This concludes the Evennia tutorial. From here you can either\n continue to explore the castle (hint: this weapon works better\n against the castle guardian than any you might have found earlier) or\n you can choose to exit."
+    ]
+  },
+  "4d3ba609-7528-4667-b5d0-0689d656c177": {
+    "command": [
+      "exit"
+    ],
+    "context": [
+      "End of tutorial(#64)\nThanks for trying out this little Evennia tutorial!\n\n\n The game play given here is of course just scraping the surface of\n what can be done with Evennia. The tutorial focuses more on showing\n various techniques than to supply any sort of novel storytelling or\n gaming challenge.  The full README and source code for the tutorial\n world can be found under contrib/tutorials/tutorial_world.\n\n\n If you went through the tutorial quest once, it can be interesting to\n do it again to explore the various possibilities and rooms you might\n not have come across yet, maybe with the source/build code next to\n you.  If you play as superuser (user #1) the mobile will ignore you\n and teleport rooms etc will not affect you (this will also disable all\n locks, so keep that in mind when checking functionality).\nExits: exit back to Limbo(#66)"
+    ]
+  },
+  "01563af3-6099-4dec-b0c1-26314c93f8e9": {
+    "command": [],
+    "context": [
+      "Account permissions (superuser) restored.\nLimbo(#2)\nWelcome to your new Evennia-based game! Visit https://www.evennia.com if you need\nhelp, want to contribute, report issues or just join the community.\n\nAs a privileged user, write batchcommand tutorial_world.build to build\ntutorial content. Once built, try intro for starting help and tutorial to\nplay the demo game.\nExits: tutorial(#4)"
+    ]
+  }
+}
