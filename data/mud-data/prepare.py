@@ -12,6 +12,8 @@ with open(input_file_path, 'r') as f:
 
 data = ''
 for key, val in raw_data.items():
+    if (val['command'] == []) or (val['context'] == []):
+        continue
     context = '\n'.join(val['context'])
     command = '\n'.join(val['command'])
     data += f'<|startctx|> {context} <|endctx|> {command} '
@@ -25,14 +27,20 @@ tokenizer.train(data, vocab_size=vocab_size)
 tokenizer.register_special_tokens({'<|startctx|>': 288, '<|endctx|>': 289})
 
 # NOTE: Create the train and test splits
-# TODO: Find the closest "<|startctx|>" and separate train / test
 n = len(data)
-train_data = data[:int(n*0.9)]
-val_data = data[int(n*0.9):]
+i = data.find('<|startctx|>')
+s = []
+while i >= 0:
+    s.append(i)
+    i = data.find('<|startctx|>', i + 1)
+    if i >= int(n*0.9):
+        break
+train_data = data[:s[-1]]
+val_data = data[s[-1]:]
 
 # NOTE: Encode both to integers
-train_ids = tokenizer.encode(train_data)
-val_ids = tokenizer.encode(val_data)
+train_ids = tokenizer.encode(train_data, allowed_special='all')
+val_ids = tokenizer.encode(val_data, allowed_special='all')
 
 print(f"train has {len(train_ids):,} tokens")
 print(f"val has {len(val_ids):,} tokens")
