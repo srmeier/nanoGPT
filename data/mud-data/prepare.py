@@ -25,6 +25,7 @@ vocab_size = 288
 tokenizer = RegexTokenizer()
 tokenizer.train(data, vocab_size=vocab_size)
 tokenizer.register_special_tokens({'<|startctx|>': 288, '<|endctx|>': 289})
+vocab_size += 2
 
 # NOTE: Create the train and test splits
 n = len(data)
