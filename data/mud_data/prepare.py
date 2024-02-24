@@ -57,3 +57,5 @@ val_ids.tofile(os.path.join(os.path.dirname(__file__), 'val.bin'))
 meta = {'vocab_size': vocab_size}
 with open(os.path.join(os.path.dirname(__file__), 'meta.pkl'), 'wb') as f:
     pickle.dump(meta, f)
+
+tokenizer.save('mud')
