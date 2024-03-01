@@ -6,7 +6,7 @@ from minbpe import RegexTokenizer
 from sys import getsizeof
 
 # NOTE: Grab the data
-# input_file_path = os.path.join(os.path.dirname(__file__), 'data.json')
+input_file_path = os.path.join(os.path.dirname(__file__), 'output.txt')
 # with open(input_file_path, 'r') as f:
 #     raw_data = json.load(f)
 
@@ -18,7 +18,7 @@ data = ''
 #     command = '\n'.join(val['command'])
 #     data += f'<|startctx|> {context} <|endctx|> {command} '
 
-with open('/datasets/mud-experiments/output.txt', 'r') as file:
+with open(input_file_path, 'r') as file:
     data = file.read()
 
 print(f'Size of data: {round(getsizeof(data) * 1e-6, 2)} MB')
