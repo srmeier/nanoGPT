@@ -6,19 +6,22 @@ from minbpe import RegexTokenizer
 from sys import getsizeof
 
 # NOTE: Grab the data
-input_file_path = os.path.join(os.path.dirname(__file__), 'data.json')
-with open(input_file_path, 'r') as f:
-    raw_data = json.load(f)
+# input_file_path = os.path.join(os.path.dirname(__file__), 'data.json')
+# with open(input_file_path, 'r') as f:
+#     raw_data = json.load(f)
 
 data = ''
-for key, val in raw_data.items():
-    if (val['command'] == []) or (val['context'] == []):
-        continue
-    context = '\n'.join(val['context'])
-    command = '\n'.join(val['command'])
-    data += f'<|startctx|> {context} <|endctx|> {command} '
+# for key, val in raw_data.items():
+#     if (val['command'] == []) or (val['context'] == []):
+#         continue
+#     context = '\n'.join(val['context'])
+#     command = '\n'.join(val['command'])
+#     data += f'<|startctx|> {context} <|endctx|> {command} '
 
-print(f'Size of data: {round(getsizeof(json.dumps(data)) * 1e-6, 2)} MB')
+with open('/datasets/mud-experiments', 'r') as file:
+    data = file.read()
+
+print(f'Size of data: {round(getsizeof(data) * 1e-6, 2)} MB')
 
 # NOTE: Train tokenizer
 vocab_size = 288
