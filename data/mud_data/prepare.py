@@ -18,7 +18,7 @@ data = ''
 #     command = '\n'.join(val['command'])
 #     data += f'<|startctx|> {context} <|endctx|> {command} '
 
-with open('/datasets/mud-experiments', 'r') as file:
+with open('/datasets/mud-experiments/output.txt', 'r') as file:
     data = file.read()
 
 print(f'Size of data: {round(getsizeof(data) * 1e-6, 2)} MB')
